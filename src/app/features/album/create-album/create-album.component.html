@@ -1,0 +1,12 @@
+
+<div class="container bg-light">
+    <h5>Create Album</h5>
+    <form (ngSubmit)="createAlbum()" class="validate">
+      <div class="mt-3">
+        <input type="text" class="form-control" placeholder="Album name" name="albumName" [(ngModel)]="albumName">
+      </div>
+      <div class="mt-3">
+        <button type="submit" class="btn btn-dark">Create</button>
+      </div>
+    </form>
+  </div>
